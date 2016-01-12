@@ -20,5 +20,16 @@ Reading - ATBSWP 1-28 and (p.28 1-8 checked into Github, checked by group. Hello
 9. The functions are str(), int(), and float()
 
 10. The expression 'I have eaten' + 99 + 'burritos' causes an error because you cannot add or concatenate integers and strings. You have to make the integer into a string: 'I have eaten' + str(99) + 'burritos.'
+11. 
+
+Hello World Code:
+
+   first='Karla'
+=> None
+   last='Haigh'
+=> None
+   first+' '+last
+=> 'Karla Haigh'
+   
 
 
