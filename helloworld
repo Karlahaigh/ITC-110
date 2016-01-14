@@ -1,0 +1,8 @@
+
+print ('Hello World')
+print ('what is your name?')
+myname=input()
+print('It is good to meet you, ' +myname)
+print ('How old are you?')
+myage=input()
+print ('You are really old!')
