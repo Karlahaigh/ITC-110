@@ -1,0 +1,78 @@
+Chapter 2 Answers
+
+1.) The two values of a Boolean datatype are True and False - always written with capital T and F respectively.
+
+2.) The three Boolean operators are 'and','or', and 'not'.
+
+3.) Truth Tables:
+And:
+True and True = True
+True and Flase = False
+False and True = False
+False and False = False
+
+Or:
+True or True = True
+True or False = True
+False or True = True
+False or False = False
+
+Not:
+not True = False
+not False = True
+
+4.) The following expressions evaluate as such:
+(5>4) and (3==5)  False
+not (5>4)  False
+(5>4) or (3==5)  True
+not ((5>4) or (3==5)) False
+(True and True) and (True==False)  False
+(not False) or (not True)  True
+
+5.) The six comparisson operators are: ==, !=, >, <, >=, <=
+
+6.) The "equal to" operator is a double equal sign (==) and compares values, whereas the equal sign (=) assigns a value.
+
+7.) A condition is an expression that evaluates to a True/False value. They are typically found in a flow control statement, and the flow control statement decides what to do based on the value of the expression (True or False).
+
+8.) The three blocks in the code are:
+    spam=0
+        if spam=10:
+          	print ('eggs')      ---Block 1
+       	if spam > 5:
+            print ('bacon')   	---Block 2
+        else:
+            print ('ham')     	---Block 3
+        print ('spam')
+    print (‘spam’)
+		
+9.) Hello/Howdy/Greetings! program
+print ('What day of the month is it?')
+spam = input ()
+if spam == '1':
+        print ('Hello')
+elif spam == '2':
+        print ('Howdy')
+else:
+        print ('Greetings!')
+        
+10.) CTRL+C will exit from an infinite loop
+
+11.) Both Break and Continue are used in loops. The Break causes the program to pause when the response is correct and move to the conclusion of the program. The Continue causes the program to loop back to the beginning [at this point] in the event the incorrect response is given, rather than allowing the program to continue through the end of the loop to restart.
+
+12.) range(10) is the number of times a loop will run - ten times. The counter will start with 0 and end with 9 as that is a count of 10.
+range(0, 10) indicates where the loop's variable starts [0] and the second number (argument) indicates what it will count up to, but not including  - meaning it will stop at [9].
+range(0, 10, 1) indicates the loop will count from 0 up to, but not including, 10  by increments or intervals of 1. [0,1,2,3,4...9]
+
+13.) For loop:
+for i in range(1,11,1):
+    print (i)
+
+while loop:
+i=1
+while i<11:
+    print (i)
+    i=i+1
+
+14.)  import spam
+    print (spam.bacon() )
