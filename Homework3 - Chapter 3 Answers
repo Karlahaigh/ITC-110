@@ -1,0 +1,27 @@
+1.) Functions help reduce duplicate code which can make a program shorter, easier to read, and easier to correct in the event of a bug.
+
+2.) The code in a function only executes when the function is called.
+
+3.) The def statement defines, or creates, a function.
+
+4.) A function can be considered a mini program within a larger program. A function call causes the function to execute.
+
+5.) There is only ONE Global Scope per program; yet there can be an unlimited number of local scopes – one is created each time a function is called.
+
+6.) Once the function has been called the local scope is destroyed and the variable is forgotten.
+
+7.) A return value is the output specified by a return statement. When an expression is used with a return statement the return value is what the expression evaluates to. Yes, the return value may be part of an expression.
+
+8.) If a function does not have a return statement it will automatically return a value of None.
+
+9.) To force the variable in a function to refer to the global variable you would use a global statement
+
+10.) None is the NoneType data type
+
+11.)  It imports a module called areallyourpetsnamederic
+
+12.)  spam.bacon()
+
+13.) Use the try and except statements
+
+14.) The try clause specifies the argument you wish to attempt (i.e. divide a number by) and the except clause indicates the error you anticipate and how you would like it to be handled
