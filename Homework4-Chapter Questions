@@ -1,0 +1,37 @@
+1)  [] is an empty list which contains no value (similar to '')
+
+2)  spam[3] = 'hello'
+
+3)  spam[int(int('3' * 2)/11)] evaluates to 'd'
+
+4)  spam[-1] evaluates to 'd'
+
+5)  spam[:2] evaluates to ['a', 'b']
+
+6)  bacon.index('cat') evaluates to 1
+
+7)  bacon.append(99) adds 99 to the end of the list: [-3.14, 'cat', 11, 'cat', True, 99]
+
+8)  bacon.remove('cat') removes the first iteration of 'cat' from the list: [-3.14, 11, 'cat', True]
+
+9)  The operator for list concatenation is + and the operator for list replication is *
+
+10) The append method adds the new value to the end of the list, whereas the insert method places it in a specified position in the list
+
+11) The two methods for removing values from a list are the del (delete) method and the remove method
+
+12) lists and strings can be concatenated and replicated, used in for loops, used with the in and not in operators, and 
+can be passed to len()
+u
+13) Tuples are immutable - the values cannot be modified, appended, or removed
+
+14) Place a trailing comma after the value inside the parenthesis: (42,)
+
+15) Tuple form of list value: tuple(['cat', 'dog', 5])
+    List form of Tuple value: list(('cat', 'dog', 5))
+    
+16) They contain references to list values
+
+17) The copy.copy() function will copy a list, but a copy.deepcopy() function will copy the list and any list within that list
+
+
