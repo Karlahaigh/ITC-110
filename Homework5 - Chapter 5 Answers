@@ -1,0 +1,18 @@
+Chapter 5 Answers
+
+1.)	Empty dictionary = {}
+
+2.)	Dictionary with a key ‘foo’ and value 42: dictionary={‘foo’:42}
+
+3.)	The main difference is that lists are ordered while dictionaries are not.
+
+4.)	If spam={‘bar’: 100} and you try to access spam{‘foo’} you will get keyError: ‘foo’
+
+5.)	There is NO difference between the expression ‘cat’ in spam and ‘cat’ in spam.values() – the in and not in operators will check for its presence.
+
+6.)	‘cat’ in spam checks if there is a keyword of cat in spam while ‘cat’ in spam.values() will check if ‘cat’ is one of the values stored in spam
+
+7.)	The shortcut for that code is the setdefault() method:
+Spam.setdefault(‘color’, ‘black’)
+
+8.)	The pprint module and the pprint.pprint() function
