@@ -1,0 +1,29 @@
+print('''As you wander into the wood you\'re shaking your head in disbelief...
+kicked out of yet another pub for involvement in a brawl....nevermind the fact that
+you actually started it!
+
+While lost deeply in disgust and muttering to yourself you have failed to notice that
+the woods have become much thicker, the undergrowth sparse, the trees very large, and very
+little light filtering through to the path along which you are - OOPS! - tripping.
+
+You pick yourself up and dust off your nether regions, pleased to note the only damage
+is to your pride. You glance around and see to your right what appears to be a lovely
+meadow. You leave the relative safety of the path and head toward green grass and sunshine.
+
+The meadow is not large and in the center is a stump approximately 4 feet in diameter. On the
+stump are two items which could be considered valuable. The first is a pile of apples - 5 or 6
+at a rough count. The other is a hatchet. Unfortunately, you are only able to carry one
+of these two items.''')
+
+print('Which item do you take with you?')
+print('I choose: ')
+
+answer=input()
+if answer == 'apples':
+    print('You have chosen the apples. You decide to eat one now and put the rest in your backpack for later.')
+else:
+    print('You have chosen the hatchet which you stowe in your backpack.')
+
+print('''Hefting your pack to your back you look around in hopes of finding a stream as you
+realize you are becoming thirsty. Unfortunately, you don't see one; however, you hear a
+trickle off in the distance and set off following the sound.''')
