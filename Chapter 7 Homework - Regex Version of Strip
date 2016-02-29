@@ -1,0 +1,25 @@
+#Create a function that does what strip() string method does.
+#my function will remove the white space from the beginning and end of a string UNLESS another argument
+#is presented in which case it will remove all except the selected charachters.
+
+
+import re
+
+def myFunction(str, sub = None):
+    
+    if sub !=None:
+            mfRegex=re.compile(r'Win(.*)ona')
+            results=mfRegex.search(str)
+            print(results.group())
+
+    else:
+            mfRegex=re.compile(r'\S.*')
+            results2=mfRegex.search(str)
+            print(results2.group())
+
+
+myFunction('    I was standing on the corner in Winslow, Arizona   ', 'What a fine sight to see')
+
+    
+    
+
