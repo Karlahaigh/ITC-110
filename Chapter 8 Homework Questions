@@ -1,0 +1,28 @@
+Chapter 8 Homework, Questions 1-9
+
+1.	What is the relative path relative to? 
+ - It is relative to the program’s current working directory.
+
+2.	What does an absolute path start with?
+- Always with the root folder (in Windows ‘C:\’
+
+3.	What does the os.getcwd() and os.chdir() functions do?
+- os.getcwd() gets the current working directory as a string value
+-os.chdir() allows you to change the current working directory
+
+4.	What are the . and .. folders?
+- (.) is shorthand for “this directory”
+-(..) is shorthand for “the parent directory’
+
+5.	In C:\bacon\eggs\spam.txt, which part is the dir name, and which part is the base name?
+- dir name = C:\bacon\eggs
+- base (or file) name = spam.txt
+
+6.	What are the three “mode’ arguments that can be passed to the open() function?
+- 
+
+7.	What happens if an existing file is opened in write mode?
+
+8.	What is the difference between the read() and readlines() methods?
+
+9.	What data structure does a shelf value resemble?
