@@ -19,10 +19,14 @@ Chapter 8 Homework, Questions 1-9
 - base (or file) name = spam.txt
 
 6.	What are the three “mode’ arguments that can be passed to the open() function?
-- 
+- read/readlines, write, and append
 
 7.	What happens if an existing file is opened in write mode?
+- It overwrites the existing file and starts from scratch
 
 8.	What is the difference between the read() and readlines() methods?
+- The read() method passes the entire file as a string
+- The readlines() method provides a list of string values - one string for each line of text.
 
 9.	What data structure does a shelf value resemble?
+- Resembles a dictionary
