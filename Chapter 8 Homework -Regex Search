@@ -1,0 +1,20 @@
+#! python 3
+
+# I used a folder on my desktop which contains plain text files to create this.
+
+# Program should open all .txt files in a folder
+# Program should search for a line which matches something provided by the user
+# Should provide results by printing it to the screen
+
+import os, re
+from os import listdir
+
+search=input('Search for: ')
+
+for filename in listdir('C:\\Users\\KarlaH\\Desktop\\Plain Text files'):
+    with open('C:\\Users\\KarlaH\\Desktop\\Plain Text files\\' + filename) as currentFile:
+        text=currentFile.read()
+        regex=re.compile(search)
+        result=regex.findall(text)
+        if (search) in text:
+            print(filename)
