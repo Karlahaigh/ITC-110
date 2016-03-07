@@ -1,0 +1,41 @@
+#! python 3
+
+# Program should open all .txt files in a folder
+# Program should search for a line which matches something provided by the user
+# Should provide results by printing it to the screen
+
+# Match the search criteria
+# Print name of file with match to screen
+
+import os, re
+from os import listdir
+
+# Take search criteria from the user
+search=input('Search for: ')
+
+# Call open(), read()
+for filename in listdir('C:\\Users\\KarlaH\\Desktop\\Plain Text files'):
+    with open('C:\\Users\\KarlaH\\Desktop\\Plain Text files\\' + filename) as currentFile:
+        text=currentFile.read()
+        regex=re.compile(search)
+        result=regex.findall(text)
+        if (search) in text:
+            print(filename)
+
+#print('end')
+        
+    
+
+#seekRegex=re.compile(search)
+
+#searchFiles=open.read('C:\\Users\\KarlaH\\Desktop\\Plain Text files'
+
+
+#mo=seekRegex.search(input())
+
+#close() files
+#searchFiles.close()
+#print mo.group()
+
+
+
