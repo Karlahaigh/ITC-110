@@ -1,0 +1,25 @@
+import random
+
+guess = ''
+
+flip = ['heads', 'tails']
+
+while guess not in (flip):
+    
+ 	print('Guess the coin toss! Enter heads or tails:')
+ 	guess = input()
+	
+toss = random.choice(flip)
+
+if toss == guess:
+	print('You guessed right!')
+else:
+	print('Sorry; try again.')
+	toss = random.choice(flip)
+
+	guess = input()
+	
+	if toss == guess:
+		print('Yes!')
+	else:
+		print('Nope. You are out of luck')
