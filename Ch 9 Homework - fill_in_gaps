@@ -1,0 +1,49 @@
+#! python3
+
+# fill_in_gaps.py scans file names for numerical indexes in files names and 
+# looks for gaps. When it finds a gap it renames the files after the gap
+# to eliminate the gap
+
+import os, shutil, re
+
+#TODO - Take input and convert it to a path the computer understands
+
+print('Please provide your folder\'s path: ')
+
+
+folder=input()
+os.chdir(folder)
+
+
+# create a regex that matches the numerical file name format
+
+namePattern = (r'^(.*?)\d', re.VERBOSE)
+
+# TODO Loop over the files in the working directory
+
+for fileNumName in os.listdir(folder):
+	mo=namePattern.search(fileNumname)
+
+# TODO Skip files without a number
+
+if mo==None:
+	continue
+
+# TODO Get the different parts of the file name
+
+
+
+# TODO rename the file to the new number in the sequence
+
+fileCorrectname =  fileNumname + 1
+
+# TODO get the full, absolute file paths
+
+filePath = os.path.abspath('.')
+fileNumname = os.path.join(filePath, fileNumName)
+fileCorrectname = os.path.join(filePath, fileCorrectname)
+
+# TODO rename the files
+
+print ('Renaming "%s" to "%s"...') %(fileNumname, fileCorrectname)
+ #shutil.move(fileNumname, fileCorrectName)
